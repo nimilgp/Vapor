@@ -23,10 +23,17 @@ We go beyond simple stats to give you a clear understanding of the market, helpi
 <summary>Spoiler warning</summary>
 
 ```mermaid
-flowchart LR
-  A(Marketplace Name) --> B(Steam)
-  B(Steam) --> C(Water Vapor)
-  C(Water Vapor) --> D(Vapo)
-  D(Vapor) --> E(Application Name)
+---
+config:
+  theme: redux
+---
+flowchart TD
+    A(["Marketplace Name"]) --> n1(["Steam"])
+    n1 --> n2(["Water Vapor"])
+    n3(["Application Name"]) --> n4(["Vapor"])
+    n4 --> n2
+
 ```
 </details>
+
+
