@@ -17,3 +17,16 @@ We go beyond simple stats to give you a clear understanding of the market, helpi
 - How do I get noticed?
 
 - What features should I prioritize?
+
+## How did I come up with this awesome project name?
+<details>
+<summary>Spoiler warning</summary>
+
+```mermaid
+flowchart LR
+  A(Marketplace Name) --> B(Steam)
+  B(Steam) --> C(Water Vapor)
+  C(Water Vapor) --> D(Vapo)
+  D(Vapor) --> E(Application Name)
+```
+</details>
