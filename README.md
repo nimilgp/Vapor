@@ -22,18 +22,6 @@ We go beyond simple stats to give you a clear understanding of the market, helpi
 <details>
 <summary>Spoiler warning</summary>
 
-```mermaid
----
-config:
-  theme: redux
----
-flowchart TD
-    A(["Marketplace Name"]) --> n1(["Steam"])
-    n1 --> n2(["Water Vapor"])
-    n3(["Application Name"]) --> n4(["Vapor"])
-    n4 --> n2
+<img width="438" height="283" alt="Screenshot From 2025-08-08 11-53-16" src="https://github.com/user-attachments/assets/68065dbf-a5c8-42e1-a27e-c7775c27f09f" />
 
-```
 </details>
-
-
