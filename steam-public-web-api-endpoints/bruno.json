@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "steam-public-web-api-endpoints",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
