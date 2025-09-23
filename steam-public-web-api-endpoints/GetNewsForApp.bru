@@ -1,0 +1,19 @@
+meta {
+  name: GetNewsForApp
+  type: http
+  seq: 1
+}
+
+get {
+  url: https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=3527290&count=2
+  body: none
+  auth: inherit
+}
+
+params:query {
+  appid: 3527290
+  count: 2
+  ~maxlength: 
+  ~enddate: 
+  ~feeds: 
+}

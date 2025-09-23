@@ -1,0 +1,20 @@
+meta {
+  name: AppDetails
+  type: http
+  seq: 2
+}
+
+get {
+  url: https://store.steampowered.com/api/appdetails?appids=374320
+  body: none
+  auth: inherit
+}
+
+params:query {
+  appids: 374320
+}
+
+docs {
+  Steam store descriptions and stuff
+  No comments
+}
